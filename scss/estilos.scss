@@ -1,0 +1,85 @@
+// VARIABLES
+$fondoPrincipal:#fff;
+$textoSecundario: gainsboro;
+$alturaHub:60px;
+$textoMain: #111;
+$fondoSecundario: #111;
+
+// Estilos
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: $fondoPrincipal;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+header{
+    
+    height: $alturaHub;
+    display: flex;
+    width: 100%;
+    color: $textoMain;
+    justify-content: space-between;
+    align-items: center;
+    
+    .logo{
+        img{
+            height: 60px;
+            
+        }
+    }
+    .menuHub{
+        ul{
+            list-style: none;
+            li{
+                font-size: 18px;
+                margin: 0 30px;
+                text-transform: uppercase;
+                display: inline-block;
+            }
+            
+        }
+        a{
+            color: $textoMain;
+            text-decoration: none;
+        }
+    }
+    .redes{
+        margin-right: 10px;
+            a{
+                margin: 0px 10px;
+                color: $textoMain;
+                text-decoration: none;
+            }
+    }
+}
+
+
+main{
+    img{padding: 15px;
+        width: 100%;
+        height: 1000px;
+
+        }
+    h1{text-align: center;}
+    p{text-align: center;}
+}
+
+footer{
+    margin-top: 10px;
+    height: 300px;
+
+    background-color:$fondoSecundario ;
+    p{
+        text-align: center;
+        color: $textoSecundario;
+        font-size: 20px;
+    }
+}
